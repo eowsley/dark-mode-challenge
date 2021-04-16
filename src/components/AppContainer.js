@@ -6,7 +6,7 @@ export default class AppContainer extends React.Component {
         const {children} = this.props;
 
         return (
-            <div className="app-container">
+            <div className="app-container" >
                 {children}
             </div>
         );
